@@ -142,7 +142,7 @@
                             </tableViewSection>
                             <tableViewSection id="fca-cq-Kfx">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="xA5-2I-T1i" detailTextLabel="o0U-Wi-kc7" style="IBUITableViewCellStyleValue1" id="uYO-zH-hbh">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="xA5-2I-T1i" detailTextLabel="o0U-Wi-kc7" style="IBUITableViewCellStyleValue1" id="uYO-zH-hbh">
                                         <rect key="frame" x="0.0" y="194" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uYO-zH-hbh" id="Fqk-Zm-TsX">
@@ -202,7 +202,7 @@
         <!--Choose Game-->
         <scene sceneID="VVi-u1-iUy">
             <objects>
-                <tableViewController title="Choose Game" id="G79-EW-qKW" sceneMemberID="viewController">
+                <tableViewController title="Choose Game" id="G79-EW-qKW" customClass="GamePickerViewController" customModule="RatingsTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Q5z-Dc-2Y0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,6 +224,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="On2-Ag-7Qm" kind="unwind" identifier="SaveSelectedGame" unwindAction="unwindWithSelectedGame:" id="T2X-fo-UIQ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -233,6 +236,7 @@
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDZ-fT-6ho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="On2-Ag-7Qm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2064.5" y="-294.5"/>
         </scene>

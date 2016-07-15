@@ -17,6 +17,7 @@
 		CCC6B04F1D38478F004CCCDC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6B04E1D38478F004CCCDC /* SampleData.swift */; };
 		CCC6B0511D3850E1004CCCDC /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6B0501D3850E1004CCCDC /* PlayerCell.swift */; };
 		CCC6B0531D385991004CCCDC /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6B0521D385991004CCCDC /* PlayerDetailsViewController.swift */; };
+		CCC6B0551D393947004CCCDC /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6B0541D393947004CCCDC /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CCC6B04E1D38478F004CCCDC /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		CCC6B0501D3850E1004CCCDC /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		CCC6B0521D385991004CCCDC /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		CCC6B0541D393947004CCCDC /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				CCC6B04E1D38478F004CCCDC /* SampleData.swift */,
 				CCC6B0501D3850E1004CCCDC /* PlayerCell.swift */,
 				CCC6B0521D385991004CCCDC /* PlayerDetailsViewController.swift */,
+				CCC6B0541D393947004CCCDC /* GamePickerViewController.swift */,
 			);
 			path = RatingsTutorial;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC6B0551D393947004CCCDC /* GamePickerViewController.swift in Sources */,
 				CCC6B0511D3850E1004CCCDC /* PlayerCell.swift in Sources */,
 				CCC6B04D1D384708004CCCDC /* Player.swift in Sources */,
 				CCC6B03B1D36FDCB004CCCDC /* ViewController.swift in Sources */,
